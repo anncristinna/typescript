@@ -16,4 +16,4 @@ empresas.map(empresa => {
 })
 
 const body = document.body;
-body.style.background = 'darkblue'
+body.style.background = 'darkblue';
