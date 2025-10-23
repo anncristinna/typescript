@@ -12,8 +12,10 @@ function isCurso(value: unknown): value is Curso {
 
 function handleCursos(data: unknown) {
     if(isCurso(data)) {
-
+        
     }
+   
+
 }
 
 interface Curso {
