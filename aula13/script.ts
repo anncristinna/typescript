@@ -20,7 +20,12 @@ function isUserData(value: any): value is UserData {
 
 function loadLocalStorage() {
     const localUserData = localStorage.getItem("UserData");
-    
+    if(localUserData) {
+        const UserData = JSON.parse(localUserData)
+        if(isUserData(UserData)) {
+            
+        }
+    }
 }
 
 function handleKeyup({target} : KeyboardEvent) {
